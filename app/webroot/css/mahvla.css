@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'futura_bkbook';
+    src: url('../fonts/futura-book-webfont.eot');
+    src: url('../fonts/futura-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/futura-book-webfont.woff2') format('woff2'),
+    url('../fonts/futura-book-webfont.woff') format('woff'),
+    url('../fonts/futura-book-webfont.ttf') format('truetype'),
+    url('../fonts/futura-book-webfont.svg#futura_bkbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+.container{
+    min-width: 1000px !important;
+    width: 1000px !important;
+}
+*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+*, a, a:hover, a:focus{
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'futura_bkbook';
+    font-size: 15px;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+header{
+    height:500px;
+    padding-top: 100px;
+    background: url("../img/bg-rodape.png");
+    background-clip: content-box;
+}
+footer{
+    min-height: 430px;
+    background: url("../img/bg-rodape.png");
+    text-align: center;
+    color: #FFF;
+}
+footer .primaria{
+    min-height: 430px;
+    text-align: center;
+}
+
+.footer-final{
+    height: 230px;
+    text-align: center;
+    color: #000;
+}
+
+aside{
+    background: linear-gradient(to right,  #111227 0%,#111227 50%,#FFFFFF 50%,#FFFFFF 100%);
+}
+aside .escritorios{
+    height: 600px;
+    background: url("../img/escritorios.jpg") no-repeat center top;
+    background-size: auto 600px;
+}
+
+section.fullheight, header { min-height: 95vh;}
+
+.popover{
+    max-width: 100%;
+}
+
+.text-size15{
+    font-family: 'futura_bkbook';
+    font-size: 15px ;
+}
+.text-size20{
+    font-family: 'futura_bkbook';
+    font-size: 20px ;
+}
+.text-size30{
+    font-family: 'futura_bkbook';
+     font-size: 30px ;
+}
+.section-heading{
+    font-family: 'futura_bkbook';
+    font-size: 19px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#contato{
+    background: #DBDBEA;
+    padding-bottom: 26px;
+}
+
+#solucoes, #solucoes2{
+    background: url("../img/bg-solutions.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+}
+#solucoes .container.big{
+    background: url("../img/solucoes.png") no-repeat center 76px;
+    height: 700px;
+}
+#atas{
+    /*background: #CBD9DA;*/
+    background: linear-gradient(to bottom,  #C3CAD0 0px,#C3CAD0 28px,#CBD9DA 28px,#CBD9DA 100%);
+    padding-top:22px
+}
+#parceiros{
+    padding-bottom: 30px;
+}
+
+.parceiros div.col-xs-6{
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 6px;
+
+}
+
+.parceiros img{
+    border: solid 1px #eeeeee;
+    padding: 15px 5px;
+}
+
+.navbar{
+    min-height: 90px;
+    z-index: 999999;
+    background: #FFF;
+}
+
+.navbar-inverse {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #111227;
+}
+.navbar-inverse.navbar-fixed-top .navbar-nav > li > a {
+    color: #E1E1E1;
+}
+.navbar-inverse.navbar-fixed-top .navbar-nav > li > a:hover {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+
+.navbar-brand img{
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+.navbar-nav{
+    margin-top: 36px;
+    margin-right: 40px;
+}
+
+
+.navbar.navbar-fixed-top{
+    background: #2D2D2D;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height: 90px;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar.navbar-fixed-top .navbar-brand img{
+    margin-top: -8px;
+    height: 75px ;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar.navbar-fixed-top .navbar-nav{
+    margin-top: 16px;
+    color: #FFF;
+}
+
+
+.collapse p{
+    position: absolute;
+    right:0px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-right: 220px;
+
+}
+
+.form-control {
+    height: 60px;
+}
+
+
+/***** MAPAS E ATAS ******/
+
+.maps, .atas{
+    height: 60px;
+    background: #000;
+    text-align: center;
+    line-height: 60px;
+    color: #FFF;
+    border-bottom: 2px solid #fff;
+}
+.atas{
+    background: #5F727E;
+    border-top: 2px solid #fff;
+    border-bottom: none;
+}
+
+
+
+.arrow-down{
+    font-size: 30px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 7px;
+}
+.maps a, .atas a{
+    color: #FFF;
+}
+
+#googlemaps{
+    height: 500px;
+    display: none;
+}
+
+#showatas{
+    display: none;
+    background: #CBD9DA;
+    padding-bottom: 20px;
+    height: 90vh;
+}
+
+.telefones div{
+    font-size: 14px;
+}
+
+
+
+
+@media (max-width: 706px) {
+    .slick-prev {
+        left: 0;
+    }
+    .slick-next, .slick-prev {
+        right: 0;
+    }
+}
+
+@media (max-width: 776px) {
+    .navbar-toggle {
+        margin-top: 29px;
+        margin-bottom: 0px;
+        background-color: #111227;
+    }
+
+    .navbar.navbar-fixed-top .navbar-toggle {
+        margin-top: 11px;
+        margin-bottom: 0px;
+        background-color: #111227;
+    }
+    .navbar-collapse{
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (max-width: 994px) {
+    .navbar {
+        min-height: 90px;
+    }
+    .navbar-nav {
+        margin-right: 0px;
+    }
+    .nav > li > a {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin-left: 0px;
+        height: 75px;
+        margin-top: 15px;
+    }
+    .primaria > .telefones > div{
+        margin-bottom: 30px;
+    }
+    .nav > li > a {
+        font-size: 11.6px;
+    }
+    .navbar-brand img {
+        margin-top: 9px;
+    }
+    .navbar-nav {
+        margin-top: -10px;
+    }
+    .telefones div{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px){
+    *, body, html{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    h1{
+        font-size: 22px;
+    }
+
+
+}
+
+@media (max-width: 1200px){
+    .telefones div{
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
